@@ -47,9 +47,62 @@ _vwo_pc_custom = {
       padding: 20px;
       text-align: center;
     }
+    nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav li:hover {
+  background-color: #f4f4f4;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4f4f4;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
   </style>
 </head>
 <body>
+  <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="#">Service 1</a>
+        <a href="#">Service 2</a>
+        <a href="#">Service 3</a>
+      </div>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
   <header>
     <h1>Long Scrollable Website</h1>
   </header>
