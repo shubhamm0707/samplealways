@@ -85,6 +85,33 @@ nav li:hover {
   display: block;
 }
 
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.checkbox-container input[type="checkbox"]:checked {
+  background-color: green;
+}
+
+.checkbox-container label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
   </style>
 </head>
 <body>
@@ -106,6 +133,11 @@ nav li:hover {
   <header>
     <h1>Long Scrollable Website</h1>
   </header>
+
+  <div class="checkbox-container">
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">Checkbox</label>
+  </div>
 
   <section>
     <h2>Section 1</h2>
