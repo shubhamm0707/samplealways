@@ -224,6 +224,36 @@
         margin-right: 5px;
       }
 
+      .appearance-none {
+    /* -webkit-appearance: none; */
+    -moz-appearance: none;
+    appearance: none;
+}
+.p-2 {
+    padding: 0.5rem;
+}
+.self-start {
+    align-self: flex-start;
+}
+
+.relative {
+    position: relative;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+.border-gray-666 {
+    --tw-border-opacity: 1;
+    border-color: rgba(102,102,102,var(--tw-border-opacity));
+}
+.border {
+    border-width: 1px;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+
       .checkbox-container input[type="checkbox"]:checked {
         background-color: green;
       }
@@ -268,17 +298,23 @@
       </p>
     </section>
 
+
+
+
     <div data-type="sourcecode" class="form-group w-full mb-4 mt-10 md:mt-6">
       <label
         for="sourcecode"
-        class="flex text-sm text-gray-text cursor-pointer relative"
-        ><span class="relative self-start"
-          ><input
+        class="flex text-sm text-gray-text cursor-pointer relative">
+        <span class="relative self-start">
+          <input
             id="sourcecode"
             type="checkbox"
+            style="border: 2px solid red"
             class="appearance-none p-2 rounded border border-gray-666 mr-2 h-3 w-3 bg-white"
-          /><!----></span
-        ><span
+          />
+    </span>
+
+    <span
           >Ja tack, jag vill gärna få mejl från I FORM (som ges ut av Bonnier
           Publications International AS), med artiklar, erbjudanden, tävlingar,
           m.m. <a class="underline">Läs mer.</a
@@ -292,90 +328,14 @@
             >här.</a
           >
           .
-        </span></label
+        </span>
+        </label
       >
     </div>
 
-    <section>
-      <h2>Section 2</h2>
-      <p>
-        Suspendisse hendrerit bibendum leo, in convallis neque laoreet nec.
-        Mauris nec felis sit amet erat fringilla condimentum. Aenean auctor
-        ipsum a odio faucibus consequat.
-      </p>
-    </section>
 
-    <section>
-      <h2>Section 3</h2>
-      <p>
-        Integer eu sem turpis. Morbi vestibulum augue ex, eget commodo justo
-        mollis vitae. Vivamus non cursus mi. Cras in efficitur velit, et
-        tristique tortor.
-      </p>
-    </section>
 
-    <section>
-      <h2>Section 4</h2>
-      <p>
-        Pellentesque suscipit dolor ut lectus vestibulum, et finibus lacus
-        ullamcorper. In non feugiat nulla, in suscipit risus. Mauris ut aliquam
-        velit.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 5</h2>
-      <p>
-        Donec tincidunt libero at justo lobortis, vel fermentum urna lobortis.
-        Integer vel pharetra arcu. Maecenas aliquam consequat elit, vitae
-        rhoncus odio ultrices at.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 6</h2>
-      <p>
-        Suspendisse hendrerit bibendum leo, in convallis neque laoreet nec.
-        Mauris nec felis sit amet erat fringilla condimentum. Aenean auctor
-        ipsum a odio faucibus consequat.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 7</h2>
-      <p>
-        Integer eu sem turpis. Morbi vestibulum augue ex, eget commodo justo
-        mollis vitae. Vivamus non cursus mi. Cras in efficitur velit, et
-        tristique tortor.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 8</h2>
-      <p>
-        Pellentesque suscipit dolor ut lectus vestibulum, et finibus lacus
-        ullamcorper. In non feugiat nulla, in suscipit risus. Mauris ut aliquam
-        velit.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 9</h2>
-      <p>
-        Donec tincidunt libero at justo lobortis, vel fermentum urna lobortis.
-        Integer vel pharetra arcu. Maecenas aliquam consequat elit, vitae
-        rhoncus odio ultrices at.
-      </p>
-    </section>
-
-    <section>
-      <h2>Section 10</h2>
-      <p>
-        Donec tincidunt libero at justo lobortis, vel fermentum urna lobortis.
-        Integer vel pharetra arcu. Maecenas aliquam consequat elit, vitae
-        rhoncus odio ultrices at.
-      </p>
-    </section>
+    
 
     <footer>
       <p>&copy; 2023 Long Scrollable Website. All rights reserved.</p>
