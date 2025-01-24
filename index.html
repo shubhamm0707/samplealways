@@ -124,5 +124,16 @@ _vwo_pc_custom = {
   <footer>
     <p>&copy; 2023 Long Scrollable Website. All rights reserved.</p>
   </footer>
+        <button id="errorButton">Click Me</button>
+
+    <script>
+        // Get the button element
+        const button = document.getElementById('errorButton');
+
+        // Add click event listener to log an error
+        button.addEventListener('click', function() {
+            console.error('An error has occurred!');
+        });
+    </script>
 </body>
 </html>
